@@ -1,0 +1,192 @@
+head{
+    background: tomato;
+}
+
+body{
+    margin: 0px;
+    background: lightslategray; 
+}
+
+.headerer{
+    position: fixed;
+    width: 100%;
+    background: purple;
+    z-index: 1;
+}
+
+header{
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+    background: turquoise;
+    border-color: darkcyan;
+    border-style: dotted;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 40pt;
+    margin: 0%;
+}
+
+nav{
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    padding: 15px;
+    background: violet;
+}
+
+.nav_item{
+    font-family: Lucida Console;
+    font-size: 16pt;
+    margin: 50px;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nav_item:hover{
+    color:palevioletred;
+}
+
+.content{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_panel{
+    position: fixed;
+    float: left;
+    width: 180px;
+    margin: 160px 10px 0px 10px;
+    padding: 0px;
+    background-color: coral;
+}
+
+.categories{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul{
+    margin: 15% 0% 15% 0%;
+    padding: 0%;
+}
+
+li{
+    margin: 10% 0% 10% 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+li:hover{
+    background: chocolate;
+}
+
+.label{
+    font-family: Lucida Console;
+    font-size: 16pt;
+    font-variant: small-caps;
+    font-weight: bolder;
+    margin: 25% 25% 25% 25%;
+}
+
+h3{
+    text-align: center;
+    font-family: Lucida Console;
+}
+
+.page{
+    position: relative;
+    float: right;
+    width: 950px;
+    margin: 150px 0px 100px 0px;
+    padding: 0%;
+    background: chartreuse;
+}
+section{
+    float: left;
+    width: 700px;
+    margin: 10px 0px 0px 0px;
+    background:white;
+}
+
+article{
+    margin: 5px;
+    padding: 10px;
+    background: rgb(235, 235, 235);
+}
+
+.title{
+    text-decoration: none;
+}
+
+h2{
+    font-family: Lucida Console;
+    margin: 0px 5px 2px 0px;
+    color:black;
+}
+
+h2:hover{
+    color: blue;
+}
+
+h5{
+    font-family: Lucida Console;
+    margin: 2px 5px 2px 0px;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.right_panel{
+    float: right;
+    width: 230px;
+    margin: 10px 10px 0px 10px;
+    padding: 0%;
+    background:yellow;
+}
+
+.right_panel_content{
+    width: 230px;
+}
+
+.mini_article{
+    width: 195px;
+    margin: 5px auto 5px auto;
+    padding: 10px;
+    background: rgb(235, 235, 235);
+    border-style: double;
+}
+
+.mini_img{
+    width: 100%;
+}
+
+.mini_title{
+    color: black;
+}
+
+.mini_title:hover{
+    color: blue;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background: green;
+}
+
+.footer_text{
+    font-size: 16pt;
+    font-family: Gill Sans MT;
+    color: ghostwhite;
+}
